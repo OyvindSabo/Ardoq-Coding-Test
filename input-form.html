@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<center>
+	<div style="width:480px;">
+		{% for message in recentMessages %}
+			{% if message.0 == 'you' %}
+				<div style="font-size:25px;" align="right">{{message.1}}</div>
+			{% else %}
+				<div style="font-size:25px;" align="left">{{message.1}}</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+	<form method="POST">
+    	<input style="font-size:25px;" name="text">
+    	<input style="font-size:25px;" type="submit">
+	</form>
+</center>
+</html>
