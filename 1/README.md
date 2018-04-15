@@ -1,4 +1,4 @@
-# Ardoq-Coding-Test
+# Task 1
 
 The file HighestProduct.py contains the method highestProduct(intList), which is a method that, given a list of integers, returns the highest product between 3 of those numbers.
 
