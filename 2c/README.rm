@@ -1,7 +1,14 @@
 # Chatbot
 
 This is a very simple chatbot utilizing the CoinMarketCap API for Python.
-To run the bot, make sure to have Flask and coinmarketcap installed, then run the chatbot.py file. The server will start and you can
-interact with the bot at localhost:5000.
+
+Before you can run the bot, make sure to have Flask and coinmarketcap installed.
+To install Flask, open your terminal and type "pip install Flask". Then press enter.
+To install coinmarketcap, open your terminal and type "pip install coinmarketcap". Then press enter.
+
+Download the chatbot.py file and run it. This can either be done in a editor like Sublime Text by clicking Tools-->Build,
+or you may use the rerminal to  navigate to the folder where you've saved the file and type "python chatbot.py" and then press enter.
+
+The server will start and you can interact with the bot by navigating to localhost:5000 (write it in the URL field) in your browser.
 
 The bot understands basic greeting commands and can check the price and/or market capitalization of Bitcoin, Ethereum, Litecoin and Monero.
